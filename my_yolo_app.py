@@ -1,5 +1,6 @@
 from torchvision import transforms
 from PIL import Image
+import cv2
 import numpy as np
 from ultralytics import YOLO  # Ensure this import works for your setup
 import streamlit as st
